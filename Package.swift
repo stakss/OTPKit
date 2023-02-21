@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "OTPKit", targets: ["OTPKit"])
     ],
     dependencies: [
-      .Package(url: "https://github.com/chrisamanse/CryptoKit.git", majorVersion: 0)
+      .Package(url: "https://github.com/stakss/CryptoKit.git", majorVersion: 0)
     ],
     targets: [
         .target(name: "OTPKit", dependencies: ["CryptoKit"], path: "OTPKit/")
