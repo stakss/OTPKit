@@ -12,7 +12,6 @@ let package = Package(
       .Package(url: "https://github.com/chrisamanse/CryptoKit.git", majorVersion: 0)
     ],
     targets: [
-        .target(name: "OTPKit", dependencies: ["CryptoKit"], path: "OTPKit/"),
-        .testTarget(name: "OTPKitTests", dependencies: ["OTPKit"])
+        .target(name: "OTPKit", dependencies: ["CryptoKit"], path: "OTPKit/")
     ]
 )
